@@ -17,11 +17,15 @@ const handler = (event, context, callback) => {
   const data = JSON.parse(event.body);
   console.log(data);
   let user_pw = new Buffer(data.password).toString("base64");
-  const queryStr = `INSERT INTO SEC_USER (USER_ID, USER_CD, USER_FIRST_NM, USER_LAST_NM, USER_EMAIL, USER_PHONE, USER_ROLE, USER_PW) VALUES (${
+  const queryStr = `UPDATE SEC_USER SET USER_CD = '${
+    data.userCode
+  }', USER_FIRST_NM = '${data.firstName}', USER_LAST_NM = '${
+    data.lastName
+  }', USER_EMAIL = '${data.email}', USER_PHONE = '${
+    data.phone
+  }', USER_ROLE = '${data.role}', USER_PW = '${user_pw}' WHERE USER_ID = ${
     data.userId
-  }, '${data.userCode}', '${data.firstName}', '${data.lastName}', '${
-    data.email
-  }', '${data.phone}', '${data.role}', '${user_pw}')`;
+  }`;
   console.log(`Query String: ${queryStr}`);
 
   connection.query(queryStr, function(error, results, fields) {
@@ -43,5 +47,5 @@ const handler = (event, context, callback) => {
   });
 };
 
-const create = middy(handler).use(cors()); // Adds CORS HTTP headers to responses
-module.exports = { create };
+const update = middy(handler).use(cors()); // Adds CORS HTTP headers to responses
+module.exports = { update };

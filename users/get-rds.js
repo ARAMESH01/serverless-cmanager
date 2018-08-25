@@ -14,14 +14,9 @@ const handler = (event, context, callback) => {
     database: "opportunitydb",
     port: 3281
   });
-  const data = JSON.parse(event.body);
-  console.log(data);
-  let user_pw = new Buffer(data.password).toString("base64");
-  const queryStr = `INSERT INTO SEC_USER (USER_ID, USER_CD, USER_FIRST_NM, USER_LAST_NM, USER_EMAIL, USER_PHONE, USER_ROLE, USER_PW) VALUES (${
-    data.userId
-  }, '${data.userCode}', '${data.firstName}', '${data.lastName}', '${
-    data.email
-  }', '${data.phone}', '${data.role}', '${user_pw}')`;
+
+  const queryStr =
+    "SELECT USER_ID, USER_CD, USER_FIRST_NM, USER_LAST_NM, USER_EMAIL, USER_PHONE, USER_ROLE, USER_PW FROM SEC_USER";
   console.log(`Query String: ${queryStr}`);
 
   connection.query(queryStr, function(error, results, fields) {
@@ -30,6 +25,7 @@ const handler = (event, context, callback) => {
       throw error;
     } else {
       console.log(results);
+      console.log(fields);
       const response = {
         statusCode: 200,
         body: JSON.stringify(results)
@@ -43,5 +39,5 @@ const handler = (event, context, callback) => {
   });
 };
 
-const create = middy(handler).use(cors()); // Adds CORS HTTP headers to responses
-module.exports = { create };
+const get = middy(handler).use(cors()); // Adds CORS HTTP headers to responses
+module.exports = { get };

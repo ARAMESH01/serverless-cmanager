@@ -1,0 +1,112 @@
+[
+  {
+    "USER_ID": 1,
+    "USER_CD": "bninan",
+    "USER_FIRST_NM": "Biju",
+    "USER_LAST_NM": "Ninan",
+    "USER_EMAIL": "biju@ninans.com",
+    "USER_PHONE": "(309)269-3514",
+    "USER_ROLE": "Admin",
+    "USER_PW": "89kyPKoZSOyZ9xFac2971A=="
+  },
+  {
+    "USER_ID": 2,
+    "USER_CD": "cblrao",
+    "USER_FIRST_NM": "CBL",
+    "USER_LAST_NM": "Rao",
+    "USER_EMAIL": "cblrao@quadyster.com",
+    "USER_PHONE": "(309)269-2671",
+    "USER_ROLE": "Admin",
+    "USER_PW": "tzaQ+XuAj2Gsa3/1EqnaNg=="
+  },
+  {
+    "USER_ID": 3,
+    "USER_CD": "andrew",
+    "USER_FIRST_NM": "Andrew",
+    "USER_LAST_NM": "Pattiwael",
+    "USER_EMAIL": "apattiwael@quadyster.com",
+    "USER_PHONE": "(563) 742-1307",
+    "USER_ROLE": "User",
+    "USER_PW": "tzaQ+XuAj2Gsa3/1EqnaNg=="
+  },
+  {
+    "USER_ID": 4,
+    "USER_CD": "haribanda",
+    "USER_FIRST_NM": "Hari",
+    "USER_LAST_NM": "Banda",
+    "USER_EMAIL": "haribanda@quadyster.com",
+    "USER_PHONE": "(309) 230-5244",
+    "USER_ROLE": "User",
+    "USER_PW": "tzaQ+XuAj2Gsa3/1EqnaNg=="
+  },
+  {
+    "USER_ID": 5,
+    "USER_CD": "lakshmi",
+    "USER_FIRST_NM": "Lakshmi",
+    "USER_LAST_NM": "Chaganti",
+    "USER_EMAIL": "lakshmi@quadyster.com",
+    "USER_PHONE": "(219) 869-2199",
+    "USER_ROLE": "User",
+    "USER_PW": "tzaQ+XuAj2Gsa3/1EqnaNg=="
+  },
+  {
+    "USER_ID": 6,
+    "USER_CD": "mahita",
+    "USER_FIRST_NM": "Mahita",
+    "USER_LAST_NM": "Varre",
+    "USER_EMAIL": "mvarre@quadyster.com",
+    "USER_PHONE": "(563) 639-5240",
+    "USER_ROLE": "User",
+    "USER_PW": "tzaQ+XuAj2Gsa3/1EqnaNg=="
+  },
+  {
+    "USER_ID": 7,
+    "USER_CD": "pavani",
+    "USER_FIRST_NM": "Pavani",
+    "USER_LAST_NM": "Rampalli",
+    "USER_EMAIL": "prampalli@quadyster.com",
+    "USER_PHONE": "(937) 750-6255",
+    "USER_ROLE": "User",
+    "USER_PW": "tzaQ+XuAj2Gsa3/1EqnaNg=="
+  },
+  {
+    "USER_ID": 8,
+    "USER_CD": "rajasree",
+    "USER_FIRST_NM": "Rajasree",
+    "USER_LAST_NM": "Chimpidi",
+    "USER_EMAIL": "rchimpidi@quadyster.com",
+    "USER_PHONE": "(309) 781-5733",
+    "USER_ROLE": "User",
+    "USER_PW": "tzaQ+XuAj2Gsa3/1EqnaNg=="
+  },
+  {
+    "USER_ID": 9,
+    "USER_CD": "ramkumar",
+    "USER_FIRST_NM": "Ramkumar",
+    "USER_LAST_NM": "Sankaranarayanan",
+    "USER_EMAIL": "ramkumar@quadyster.com",
+    "USER_PHONE": "(563) 514-5719",
+    "USER_ROLE": "User",
+    "USER_PW": "tzaQ+XuAj2Gsa3/1EqnaNg=="
+  },
+  {
+    "USER_ID": 13,
+    "USER_CD": "aramesh",
+    "USER_FIRST_NM": "Aparna",
+    "USER_LAST_NM": "Ramesh",
+    "USER_EMAIL": "aramesh@quadyster.com",
+    "USER_PHONE": "3099124590",
+    "USER_ROLE": "admin",
+    "USER_PW": "tzaQ+XuAj2Gsa3/1EqnaNg=="
+  },
+  {
+    "USER_ID": 14,
+    "USER_CD": "aramesh1",
+    "USER_FIRST_NM": "Aparna",
+    "USER_LAST_NM": "Ramesh",
+    "USER_EMAIL": "aramesh@quadyster.com",
+    "USER_PHONE": "3099124590",
+    "USER_ROLE": "admin",
+    "USER_PW": "UXVhZEA1MjcyMg=="
+  }
+]

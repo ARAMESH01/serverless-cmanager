@@ -1,0 +1,3 @@
+{
+  "extends": ["serverless-app", "plugin:prettier/recommended"]
+}
